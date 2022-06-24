@@ -105,18 +105,22 @@ main>.svgScrollBottom>svg {
 
 main>.objectives {
     width: 80%;
+    display: flex;
     margin-top: 25%;
     align-self: center;
     margin-bottom: 20%;
+    flex-direction: row;
 }
 
 main>.objectives>.line-and-balls {
-    width: fit-content;
+    padding-top: 10%;
+    width: max-content;
+    padding-bottom: 10%;
 }
 
 main>.objectives>.line-and-balls>.line {
     width: 5px;
-    height: 400px;
+    height: 450px;
     display: flex;
     transition-duration: 0.1s;
     background-color: #ed2c2c;
@@ -131,7 +135,46 @@ main>.objectives>.line-and-balls>.line>.ball-start, main>.objectives>.line-and-b
     background-color: #ed2c2c;
 }
 
+main>.objectives>.line-and-balls>.line>.ball-end {
+    margin-top: 2000%;
+}
+
 main>.objectives>.line-and-balls>.line>.ball-center {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+main>.objectives>.texts {
+    display: flex;
+    padding-left: 5%;
+}
+
+main>.objectives>.texts>h2 {
+    font-size: 6vw;
+    color: #ffffff;
+}
+
+main>.objectives>.texts>h2>.highlighted {
+    color: #ed2c2c;
+}
+
+main>.objectives>.texts>.center-container-text {
+    display: flex;
+    font-size: 4vw;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+main>.objectives>.texts>.center-container-text>.highlighted {
+    color: #ed2c2c;
+}
+
+main>.objectives>.texts>.bottom-container-text {
+    font-size: 4vw;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+main>.objectives>.texts>.bottom-container-text>.highlighted {
+    color: #ed2c2c;
 }
