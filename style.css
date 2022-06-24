@@ -17,7 +17,7 @@ header {
 }
 
 header>span {
-    font-size: 0.8vw;
+    font-size: 3vw;
     color: #ffffff;
     margin-bottom: 2%;
     align-self: center;
@@ -36,7 +36,7 @@ main>h1 {
     width: 80%;
     margin-top: 10%;
     color: #ffffff;
-    font-size: 1.9rem;
+    font-size: 6.5vw;
     text-align: center;
     align-self: center;
     font-weight: bolder;
