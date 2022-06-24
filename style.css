@@ -69,14 +69,18 @@ main>button>span {
     align-self: center;
 }
 
-main>svg {
+main>.svgScrollBottom {
+    display: flex;
+    margin-top: 10%;
+}
+
+main>.svgScrollBottom>svg {
     width: 83.25px;
     height: 51.75px;
     fill: #ffffff;
     align-self: center;
-    transition-duration: 0.1s;
     position: absolute;
-    top: 52%;
+    transition-duration: 0.1s;
     transition-timing-function: linear;
     animation: svgScrollBottom 1s infinite;
 }
@@ -93,7 +97,7 @@ main>svg {
 
 main>.objectives {
     width: 80%;
-    margin-top: 40%;
+    margin-top: 30%;
     align-self: center;
     margin-bottom: 20%;
 }
