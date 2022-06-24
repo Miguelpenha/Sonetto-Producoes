@@ -17,7 +17,7 @@ header {
 }
 
 header>span {
-    font-size: 12px;
+    font-size: 0.8rem;
     color: #ffffff;
     margin-bottom: 2%;
     align-self: center;
@@ -35,8 +35,8 @@ main>img {
 main>h1 {
     width: 80%;
     margin-top: 10%;
-    font-size: 30px;
     color: #ffffff;
+    font-size: 1.9rem;
     text-align: center;
     align-self: center;
     font-weight: bolder;
@@ -47,8 +47,7 @@ main>h1>.highlighted {
 }
 
 main>button {
-    width: 75%;
-    padding: 4%;
+    padding: 4% 6%;
     border: none;
     display: flex;
     cursor: pointer;
@@ -56,9 +55,9 @@ main>button {
     color: #ffffff;
     align-self: center;
     border-radius: 35px;
+    transition-duration: 0.1s;
     background-color: #ed2c2c;
     transition-timing-function: linear;
-    transition-duration: 0.1s;
 }
 
 main>button:hover {
@@ -66,13 +65,13 @@ main>button:hover {
 }
 
 main>button>span {
-    font-size: 16px;
+    font-size: 1rem;
     align-self: center;
 }
 
 main>svg {
-    width: 148px;
-    height: 92px;
+    width: 111px;
+    height: 69px;
     margin-top: 8%;
     fill: #ffffff;
     align-self: center;
@@ -80,9 +79,9 @@ main>svg {
 
 main>.objectives {
     width: 80%;
+    margin-top: 10%;
     align-self: center;
     margin-bottom: 20%;
-    margin-top: 5%;
 }
 
 main>.objectives>.line-and-balls {
