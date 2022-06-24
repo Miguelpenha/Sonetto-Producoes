@@ -146,7 +146,7 @@ main>.objectives>.line-and-balls>.line>.ball-center {
 
 main>.objectives>.texts {
     display: flex;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 main>.objectives>.texts>h2 {
