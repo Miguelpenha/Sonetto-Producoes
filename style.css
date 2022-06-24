@@ -191,7 +191,7 @@ main>.about>h2>.highlighted {
     color: #ed2c2c;
 }
 
-main>.about>img {
+main>.about>.photo-of-choir {
     width: 80%;
     margin-top: 8%;
     align-self: center;
@@ -227,6 +227,7 @@ main>.music-advisor>.subtitle {
 main>.music-advisor>.photo-of-regent {
     margin-top: 5%;
     align-self: center;
+    width: 70%;
 }
 
 main>.music-advisor>.description {
