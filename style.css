@@ -36,7 +36,7 @@ main>img {
 main>h1 {
     width: 80%;
     font-size: 6.5vw;
-    line-height: 35px;
+    line-height: 30px;
     margin-top: 20%;
     color: #ffffff;
     text-align: center;
@@ -51,7 +51,7 @@ main>h1>.highlighted {
 main>button {
     border: none;
     display: flex;
-    padding: 4% 6%;
+    padding: 6% 6%;
     cursor: pointer;
     margin-top: 20%;
     color: #ffffff;
