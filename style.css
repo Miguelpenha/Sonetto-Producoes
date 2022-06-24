@@ -80,6 +80,7 @@ main>button>span {
 main>.svgScrollBottom {
     display: flex;
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 main>.svgScrollBottom>svg {
