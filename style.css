@@ -19,11 +19,11 @@ body {
 
 header {
     display: flex;
-    padding-top: 5%;
 }
 
 header>span {
     font-size: 3vw;
+    padding-top: 5%;
     color: #ffffff;
     margin-bottom: 2%;
     align-self: center;
@@ -77,13 +77,13 @@ main>button>span {
     align-self: center;
 }
 
-main>.svgScrollBottom {
+main>.container-svg-scroll-bottom {
     display: flex;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 
-main>.svgScrollBottom>svg {
+main>.container-svg-scroll-bottom>svg {
     width: 83.25px;
     height: 51.75px;
     fill: #ffffff;
@@ -91,10 +91,10 @@ main>.svgScrollBottom>svg {
     position: absolute;
     transition-duration: 0.1s;
     transition-timing-function: linear;
-    animation: svgScrollBottom 1s infinite;
+    animation: container-svg-scroll-bottom 1s infinite;
 }
 
-@keyframes svgScrollBottom {
+@keyframes container-svg-scroll-bottom {
     0% {
         margin-top: 0%;
     }
@@ -109,7 +109,7 @@ main>.objectives {
     display: flex;
     margin-top: 25%;
     align-self: center;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     flex-direction: row;
 }
 
@@ -174,4 +174,67 @@ main>.objectives>.texts>.bottom-container-text {
 
 main>.objectives>.texts>.bottom-container-text>.highlighted {
     color: #ed2c2c;
+}
+
+main>.about {
+    display: flex;
+    background-color: #ffffff;
+}
+
+main>.about>h2 {
+    font-size: 6vw;
+    margin-top: 8%;
+    text-align: center;
+}
+
+main>.about>h2>.highlighted {
+    color: #ed2c2c;
+}
+
+main>.about>img {
+    width: 80%;
+    margin-top: 8%;
+    align-self: center;
+}
+
+main>.about>.description {
+    width: 73%;
+    margin-top: 5%;
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 8%;
+    text-align: center;
+    align-self: center;
+}
+
+main>.music-advisor {
+    display: flex;   
+}
+
+main>.music-advisor>.title {
+    font-size: 6vw;
+    margin-top: 10%;
+    color: #ed2c2c;
+    text-align: center;
+}
+
+main>.music-advisor>.subtitle {
+    margin-top: 2%;
+    color: #ffffff;
+    text-align: center;
+}
+
+main>.music-advisor>.photo-of-regent {
+    margin-top: 5%;
+    align-self: center;
+}
+
+main>.music-advisor>.description {
+    width: 80%;
+    margin-top: 2%;
+    font-size: 4vw;
+    color: #ffffff;
+    margin-bottom: 8%;
+    text-align: center;
+    align-self: center;
 }
