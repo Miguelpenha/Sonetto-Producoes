@@ -136,10 +136,6 @@ main>.objectives>.line-and-balls>.line>.ball-start, main>.objectives>.line-and-b
     background-color: #ed2c2c;
 }
 
-main>.objectives>.line-and-balls>.line>.ball-end {
-    margin-top: 2000%;
-}
-
 main>.objectives>.line-and-balls>.line>.ball-center {
     margin-top: auto;
     margin-bottom: auto;
