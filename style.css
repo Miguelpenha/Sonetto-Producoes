@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    padding-top: 5%;
+}
+
+header>span {
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 2%;
+    align-self: center;
+}
+
+main {
+    display: flex;
+    padding-top: 12%;
+}
+
+main>img {
+    align-self: center;
+}
+
+main>h1 {
+    width: 80%;
+    margin-top: 10%;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    align-self: center;
+    font-weight: bolder;
+}
+
+main>h1>.highlighted {
+    color: #ed2c2c;
+}
+
+main>button {
+    width: 75%;
+    padding: 4%;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    margin-top: 10%;
+    color: #ffffff;
+    align-self: center;
+    border-radius: 35px;
+    background-color: #ed2c2c;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+}
+
+main>button:hover {
+    opacity: 0.8;
+}
+
+main>button>span {
+    font-size: 16px;
+    align-self: center;
+}
+
+main>svg {
+    width: 148px;
+    height: 92px;
+    margin-top: 8%;
+    fill: #ffffff;
+    align-self: center;
+}
+
+main>.objectives {
+    width: 80%;
+    align-self: center;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+main>.objectives>.line-and-balls {
+    width: fit-content;
+}
+
+main>.objectives>.line-and-balls>.line {
+    width: 5px;
+    height: 400px;
+    display: flex;
+    transition-duration: 0.1s;
+    background-color: #ed2c2c;
+    transition-timing-function: linear;
+}
+
+main>.objectives>.line-and-balls>.line>.ball-start, main>.objectives>.line-and-balls>.line>.ball-end, main>.objectives>.line-and-balls>.line>.ball-center {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #ed2c2c;
+}
+
+main>.objectives>.line-and-balls>.line>.ball-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
