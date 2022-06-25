@@ -109,7 +109,6 @@ main>.objectives {
     display: flex;
     margin-top: 25%;
     align-self: center;
-    margin-bottom: 15%;
     flex-direction: row;
 }
 
@@ -177,16 +176,24 @@ main>.objectives>.texts>.bottom-container-text>.highlighted {
 }
 
 main>.repertoire {
-    width: 80%;
     display: flex;
-    margin-top: 15%;
+    margin-top: 20%;
     align-self: center;
 }
 
+main>.repertoire>img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
 main>.repertoire>.title {
+    width: 80%;
     font-size: 8vw;
+    margin-top: 25%;
     color: #ffffff;
     font-weight: 500;
+    align-self: center;
 }
 
 main>.repertoire>.title>.highlighted {
@@ -194,9 +201,11 @@ main>.repertoire>.title>.highlighted {
 }
 
 main>.repertoire>.description {
+    width: 80%;
     font-size: 4vw;
     margin-top: 12%;
     color: #ffffff;
+    align-self: center;
 }
 
 main>.repertoire>.description>.highlighted {
@@ -206,6 +215,18 @@ main>.repertoire>.description>.highlighted {
 main>.music-advisor {
     display: flex;
     margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+main>.music-advisor>.light-red {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+main>.music-advisor>.light-gold {
+    width: 100%;
+    position: absolute;
 }
 
 main>.music-advisor>.title {
@@ -232,14 +253,12 @@ main>.music-advisor>.description {
     margin-top: 2%;
     font-size: 4vw;
     color: #ffffff;
-    margin-bottom: 8%;
     text-align: center;
     align-self: center;
 }
 
 main>.about {
     display: flex;
-    margin-top: 25%;
     background-color: #ffffff;
 }
 
@@ -267,4 +286,50 @@ main>.about>.description {
     margin-bottom: 8%;
     text-align: center;
     align-self: center;
+}
+
+main>.companies {
+    display: flex;
+}
+
+main>.companies>img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+main>.companies>h2 {
+    width: 70%;
+    font-size: 6vw;
+    margin-top: 8%;
+    color: #ffffff;
+    margin-bottom: 5%;
+    align-self: center;
+    text-align: center;
+}
+
+main>.companies>h2>.highlighted {
+    color: #ed2c2c;
+}
+
+main>.companies>.companies-logos {
+    width: 80%;
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main>.companies>.companies-logos>img {
+    margin: 5%;
+    align-self: center;
+    justify-self: center;
+}
+
+main>.companies>.description {
+    width: 80%;
+    font-size: 4vw;
+    margin-top: 10%;
+    color: #ffffff;
+    align-self: center;
+    text-align: center;
 }
