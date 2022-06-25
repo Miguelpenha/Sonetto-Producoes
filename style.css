@@ -226,6 +226,7 @@ main>.music-advisor>.light-red {
 
 main>.music-advisor>.light-gold {
     width: 100%;
+    z-index: -1;
     position: absolute;
 }
 
@@ -292,7 +293,7 @@ main>.companies {
     display: flex;
 }
 
-main>.companies>img {
+main>.companies>.light-red {
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -320,6 +321,7 @@ main>.companies>.companies-logos {
 }
 
 main>.companies>.companies-logos>img {
+    width: 70%;
     margin: 5%;
     align-self: center;
     justify-self: center;
