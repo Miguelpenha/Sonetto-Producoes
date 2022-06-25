@@ -175,19 +175,22 @@ main>.objectives>.texts>.bottom-container-text>.highlighted {
     color: #ed2c2c;
 }
 
-main>.repertoire {
+main>.container-repertoire-and-music-advisor {
+    display: flex;
+}
+
+main>.container-repertoire-and-music-advisor>.lights {
+    width: 100%;
+    position: absolute;
+}
+
+main>.container-repertoire-and-music-advisor>.repertoire {
     display: flex;
     margin-top: 20%;
     align-self: center;
 }
 
-main>.repertoire>img {
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-}
-
-main>.repertoire>.title {
+main>.container-repertoire-and-music-advisor>.repertoire>.title {
     width: 80%;
     font-size: 8vw;
     margin-top: 25%;
@@ -196,11 +199,11 @@ main>.repertoire>.title {
     align-self: center;
 }
 
-main>.repertoire>.title>.highlighted {
+main>.container-repertoire-and-music-advisor>.repertoire>.title>.highlighted {
     color: #ed2c2c;
 }
 
-main>.repertoire>.description {
+main>.container-repertoire-and-music-advisor>.repertoire>.description {
     width: 80%;
     font-size: 4vw;
     margin-top: 12%;
@@ -208,48 +211,36 @@ main>.repertoire>.description {
     align-self: center;
 }
 
-main>.repertoire>.description>.highlighted {
+main>.container-repertoire-and-music-advisor>.repertoire>.description>.highlighted {
     color: #ed2c2c;
 }
 
-main>.music-advisor {
+main>.container-repertoire-and-music-advisor>.music-advisor {
     display: flex;
     margin-top: 15%;
     margin-bottom: 10%;
 }
 
-main>.music-advisor>.light-red {
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-}
-
-main>.music-advisor>.light-gold {
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-}
-
-main>.music-advisor>.title {
+main>.container-repertoire-and-music-advisor>.music-advisor>.title {
     font-size: 6vw;
     margin-top: 10%;
     color: #ed2c2c;
     text-align: center;
 }
 
-main>.music-advisor>.subtitle {
+main>.container-repertoire-and-music-advisor>.music-advisor>.subtitle {
     margin-top: 2%;
     color: #ffffff;
     text-align: center;
 }
 
-main>.music-advisor>.photo-of-regent {
-    width: 70%;
+main>.container-repertoire-and-music-advisor>.music-advisor>.photo-of-regent {
+    width: 65%;
     margin-top: 5%;
     align-self: center;
 }
 
-main>.music-advisor>.description {
+main>.container-repertoire-and-music-advisor>.music-advisor>.description {
     width: 75%;
     margin-top: 2%;
     font-size: 4vw;
@@ -295,14 +286,13 @@ main>.companies {
 
 main>.companies>.light-red {
     width: 100%;
-    z-index: -1;
     position: absolute;
 }
 
 main>.companies>h2 {
     width: 70%;
     font-size: 6vw;
-    margin-top: 8%;
+    margin-top: 35%;
     color: #ffffff;
     margin-bottom: 5%;
     align-self: center;
