@@ -107,7 +107,7 @@ main>.container-svg-scroll-bottom>svg {
 main>.objectives {
     width: 80%;
     display: flex;
-    margin-top: 25%;
+    margin-top: 30%;
     align-self: center;
     flex-direction: row;
 }
