@@ -3,6 +3,7 @@
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -25,13 +26,15 @@ header>span {
     font-size: 3vw;
     padding-top: 5%;
     color: #ffffff;
+    font-weight: 100;
     margin-bottom: 2%;
     align-self: center;
+    word-spacing: 0.1vw;
 }
 
 main {
     display: flex;
-    padding-top: 12%;
+    padding-top: 8%;
 }
 
 main>img {
@@ -41,7 +44,7 @@ main>img {
 
 main>h1 {
     width: 80%;
-    margin-top: 20%;
+    margin-top: 15%;
     color: #ffffff;
     font-size: 6.5vw;
     line-height: 8vw;
@@ -54,26 +57,27 @@ main>h1>.highlighted {
     color: #ed2c2c;
 }
 
-main>button {
+main>.button {
     border: none;
     display: flex;
-    padding: 5% 6%;
+    padding: 5.5% 8%;
     cursor: pointer;
-    margin-top: 10%;
+    margin-top: 15%;
     color: #ffffff;
     align-self: center;
     border-radius: 35px;
+    text-decoration: none;
     transition-duration: 0.1s;
     background-color: #ed2c2c;
     transition-timing-function: linear;
 }
 
-main>button:hover {
+main>.button:hover {
     opacity: 0.8;
 }
 
-main>button>span {
-    font-size: 4.2vw;
+main>.button>span {
+    font-size: 4vw;
     align-self: center;
 }
 
@@ -249,28 +253,22 @@ main>.container-repertoire-and-music-advisor>.music-advisor>.description {
     align-self: center;
 }
 
-main>.about {
+#about {
     display: flex;
     background-color: #ffffff;
 }
 
-main>.about>h2 {
+#about>h2 {
     font-size: 6vw;
     margin-top: 8%;
     text-align: center;
 }
 
-main>.about>h2>.highlighted {
+#about>h2>.highlighted {
     color: #ed2c2c;
 }
 
-main>.about>.photo-of-choir {
-    width: 80%;
-    margin-top: 8%;
-    align-self: center;
-}
-
-main>.about>.description {
+#about>.description {
     width: 73%;
     margin-top: 5%;
     font-size: 4vw;
@@ -278,6 +276,33 @@ main>.about>.description {
     margin-bottom: 8%;
     text-align: center;
     align-self: center;
+}
+
+#about>.photo-of-choir {
+    width: 80%;
+    align-self: center;
+}
+
+#about>button {
+    border: none;
+    display: flex;
+    padding: 4% 6%;
+    margin-top: 5%;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 20%;
+    border-radius: 35px;
+    transition-duration: 0.1s;
+    background-color: #ed2c2c;
+    transition-timing-function: linear;
+}
+
+#about>button:hover {
+    opacity: 0.8;
+}
+
+#about>button>span {
+    color: #ffffff;
 }
 
 main>.companies {
@@ -292,7 +317,7 @@ main>.companies>.light-red {
 main>.companies>h2 {
     width: 70%;
     font-size: 6vw;
-    margin-top: 35%;
+    margin-top: 25%;
     color: #ffffff;
     margin-bottom: 5%;
     align-self: center;
