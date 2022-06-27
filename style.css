@@ -91,8 +91,8 @@ main>.container-svg-scroll-bottom {
 }
 
 main>.container-svg-scroll-bottom>svg {
-    width: 60px;
-    height: 37.5px;
+    width: 48px;
+    height: 30px;
     fill: #ffffff;
     align-self: center;
     position: absolute;
