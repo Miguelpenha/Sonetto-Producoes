@@ -83,7 +83,7 @@ main>.button>span {
 
 main>.container-svg-scroll-bottom {
     display: flex;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-bottom: 5%;
     background-color: red;
     cursor: pointer;
@@ -118,7 +118,7 @@ main>.container-svg-scroll-bottom>svg {
 main>#objectives {
     width: 80%;
     display: flex;
-    margin-top: 48%;
+    margin-top: 38%;
     padding-top: 10%;
     align-self: center;
     flex-direction: row;
