@@ -46,7 +46,7 @@ main>img {
     align-self: center;
 }
 
-main>h1 {
+main>.title {
     width: 80%;
     margin-top: 15%;
     color: #ffffff;
@@ -57,7 +57,7 @@ main>h1 {
     font-weight: bolder;
 }
 
-main>h1>.highlighted {
+main>.title>.highlighted {
     color: #ed2c2c;
 }
 
