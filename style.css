@@ -246,6 +246,7 @@ main>.container-repertoire-and-music-advisor>.music-advisor>.title {
 
 main>.container-repertoire-and-music-advisor>.music-advisor>.subtitle {
     margin-top: 2%;
+    font-size: 6vw;
     color: #ffffff;
     text-align: center;
 }
@@ -295,26 +296,26 @@ main>.container-repertoire-and-music-advisor>.music-advisor>.description {
     align-self: center;
 }
 
-#about>button {
-    border: none;
+#about>.button {
     display: flex;
     padding: 4% 6%;
-    margin-top: 5%;
-    cursor: pointer;
+    margin-top: 8%;
     align-self: center;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     border-radius: 35px;
+    text-decoration: none;
     transition-duration: 0.1s;
     background-color: #ed2c2c;
     transition-timing-function: linear;
 }
 
-#about>button:hover {
+#about>.button:hover {
     opacity: 0.8;
 }
 
-#about>button>span {
+#about>.button>span {
     color: #ffffff;
+    font-size: 4vw;
 }
 
 main>.companies {
