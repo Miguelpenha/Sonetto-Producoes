@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+*::selection {
+    background-color: #facf435e;
+}
+
+body {
+    display: flex;
+    background-color: #000000;
+}
+
+header {
+    width: 80%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    align-self: center;
+}
+
+header>.title {
+    color: #ed2c2c;
+    font-size: 5.2vw;
+    font-weight: 600;
+}
+
+main {
+    width: 80%;
+    margin-bottom: 5%;
+    align-self: center;
+}
+
+main>.text {
+    font-size: 3vw;
+    color: #ffffff;
+    font-weight: 600;
+}

@@ -363,3 +363,20 @@ main>.companies>.description {
     align-self: center;
     text-align: center;
 }
+
+footer {
+    z-index: 1;
+    margin-top: 12%;
+    margin-bottom: 8%;
+}
+
+footer>.policies {
+    display: flex;
+    align-items: center;
+}
+
+footer>.policies>a {
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: #ed2c2c;
+}
