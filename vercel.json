@@ -33,11 +33,6 @@
         {
             "source": "/terms.html",
             "destination": "/terms"
-        },
-        {
-            "source": "/oficinaoperistica",
-            "destination": "https://oficinaoperistica.sonettoproducoes.com"
         }
-
     ]
 }
