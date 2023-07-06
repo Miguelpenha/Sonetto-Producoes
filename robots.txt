@@ -2,4 +2,4 @@ User-Agent: *
 Disallow: /404.html
 Allow: /
 
-Sitemap: https://sonettoproducoes.site/sitemap.xml
+Sitemap: https://sonettoproducoes.com/sitemap.xml

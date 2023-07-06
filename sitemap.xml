@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sonettoproducoes.site/</loc>
+    <loc>https://sonettoproducoes.com/</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>anual</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://sonettoproducoes.site/terms</loc>
+    <loc>https://sonettoproducoes.com/terms</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>anual</changefreq>
     <priority>0,5</priority>
   </url>
   <url>
-    <loc>https://sonettoproducoes.site/privacy</loc>
+    <loc>https://sonettoproducoes.com/privacy</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>anual</changefreq>
     <priority>0,5</priority>
   </url>
   <url>
-    <loc>https://sonettoproducoes.site/404</loc>
+    <loc>https://sonettoproducoes.com/404</loc>
     <lastmod>2022-06-28</lastmod>
     <changefreq>never</changefreq>
     <priority>0</priority>
