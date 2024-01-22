@@ -1,4 +1,5 @@
 {
+    "cleanUrls": true,
     "redirects": [
         {
             "source": "/README.md",
@@ -13,26 +14,8 @@
             "destination": "/404"
         },
         {
-            "source": "/.htaccess",
+            "source": "/.vscode",
             "destination": "/404"
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/404.html",
-            "destination": "404"
-        },
-        {
-            "source": "/index.html",
-            "destination": "/"
-        },
-        {
-            "source": "/privacy.html",
-            "destination": "/privacy"
-        },
-        {
-            "source": "/terms.html",
-            "destination": "/terms"
         }
     ]
 }

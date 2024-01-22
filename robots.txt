@@ -1,5 +1,5 @@
 User-Agent: *
-Disallow: /404.html
+Disallow: /404
 Allow: /
 
 Sitemap: https://sonettoproducoes.com/sitemap.xml
