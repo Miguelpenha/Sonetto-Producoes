@@ -1,2 +1,2 @@
 # Sonetto Produções
-Disponível em [https://sonetto-producoes.vercel.app](https://sonetto-producoes.vercel.app)
+Disponível em [https://sonettoproducoes.vercel.app](https://sonettoproducoes.vercel.app)
